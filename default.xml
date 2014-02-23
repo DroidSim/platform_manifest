@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" remote="DroidSim" revision="gnu_linux_x86" groups="pdk" >
+  <project path="build" name="platform_build" remote="DroidSim" revision="gnu_linux_x86" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -432,7 +432,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="platform/system/core" remote="DroidSim" revision="gnu_linux_x86" groups="pdk" />
+  <project path="system/core" name="platform_system_core" remote="DroidSim" revision="gnu_linux_x86" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
