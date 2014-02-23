@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <remote  new="DroidSim"
+  <remote  name="DroidSim"
            fetch="https://github.com/DroidSim/" />
   <default revision="master"
            remote="aosp"
